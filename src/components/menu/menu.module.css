@@ -1,0 +1,96 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    height: 50px;
+    margin-bottom: 40px;
+    background-color: #fff;
+}
+
+.boxNav {
+    display: flex;
+}
+
+.logo {
+    color: #fff;
+    background-color: #006cbf;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.boxinputHeader {
+    margin-left: 5px;
+    padding: 5px 10px;
+    display: flex;
+    gap: 5px;
+    border: 1px solid #b3b3b3;
+    border-radius: 15px;
+}
+
+.boxinputHeader input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav li a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #666666;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.boximgheader {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boximgheader p {
+    font-size: 11px;
+    text-transform: capitalize;
+    color: #666666;
+}
+
+.imgEu {
+    border-radius: 50%;
+}
+
+.boxtextEu {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .boxinputHeader {
+        border: none;
+        cursor: pointer;
+    }
+    .boxinputHeader input {
+        display: none;
+    }
+    .nav li a span {
+        display: none;
+    }
+    .boximgheader p {
+        display: none;
+    }
+    .icondown {
+        display: none;
+    }
+}

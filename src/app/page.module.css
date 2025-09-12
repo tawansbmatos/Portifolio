@@ -1,0 +1,14 @@
+.container {
+    background-color: #f5f3f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    min-height: 100vh;
+    width: 80%;
+    justify-content: space-between;
+    gap: 20px;
+}

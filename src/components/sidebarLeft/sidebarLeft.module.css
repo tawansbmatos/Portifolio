@@ -1,0 +1,31 @@
+.sidebarLeft {
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    background-color: #f2f2f2;
+    height: 300px;
+}
+
+.secprofile {
+    position: relative;
+    background-image: url('/depositphotos_172385004-stock-photo-programming-code-abstract-technology-background.jpg');
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 70px;
+}
+
+.avatar {
+    border-radius: 50%;
+    position: absolute;
+    bottom: -30px;
+    left: 15px;
+    border: 1px solid #f2f2f2;
+}
+
+.descriptions {
+    background-color: red;
+    width: 90%;
+    margin: 30px auto;
+}
