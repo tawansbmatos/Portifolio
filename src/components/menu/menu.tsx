@@ -16,7 +16,9 @@ export default function TopMenu() {
       <div className={styles.boxNav}>
         <div className={styles.logo}>LinkedDev</div>
         <div className={styles.boxinputHeader}>
-          <FaSearch size={17} color="#404040" />
+          <FaSearch size={17} color="#404040" 
+          className={styles.icons}
+          />
 
           <input
             type="text"
@@ -29,31 +31,41 @@ export default function TopMenu() {
       <nav className={styles.nav}>
         <li>
           <a href="#">
-            <FaHome size={23} />
+            <FaHome size={23} 
+            className={styles.icons}
+            />
             <span>Início</span>
           </a>
         </li>
         <li>
           <a href="#">
-            <FaUserFriends size={23} />
+            <FaUserFriends size={23} 
+            className={styles.icons}
+            />
             <span>Minha rede</span>
           </a>
         </li>
         <li>
           <a href="#">
-            <FaBriefcase size={23} />
+            <FaBriefcase size={23} 
+            className={styles.icons}
+            />
            <span>Vagas</span>
           </a>
         </li>
         <li>
           <a href="#">
-            <FaCommentDots size={23} />
+            <FaCommentDots size={23} 
+            className={styles.icons}
+            />
            <span>Mensagens</span>
           </a>
         </li>
         <li>
           <a href="#">
-            <FaBell size={23} />
+            <FaBell size={23} 
+            className={styles.icons}
+            />
             <span>Notificações</span>
           </a>
         </li>

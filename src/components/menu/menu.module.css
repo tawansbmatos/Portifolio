@@ -6,8 +6,8 @@
     align-items: center;
     border-bottom: 1px solid #ddd;
     height: 50px;
-    margin-bottom: 40px;
     background-color: #fff;
+    position: fixed;
 }
 
 .boxNav {
@@ -53,6 +53,11 @@
     text-decoration: none;
 }
 
+.nav li a:hover {
+    color: #000;
+    transition: .4s;
+}
+
 .boximgheader {
     display: flex;
     justify-content: center;
@@ -77,6 +82,9 @@
 }
 
 @media (max-width: 768px) {
+    .header {
+        position: fixed;
+    }
     .boxinputHeader {
         border: none;
         cursor: pointer;
@@ -93,4 +101,5 @@
     .icondown {
         display: none;
     }
+    .icons {}
 }

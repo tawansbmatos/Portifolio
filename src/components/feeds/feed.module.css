@@ -1,4 +1,105 @@
 .feed {
     width: 50%;
-    background-color: cadetblue;
+    height: 100vh;
+    margin-left: 23%;
+    /* altura máxima visível */
+    overflow-y: auto;
+    /* ativa rolagem vertical */
+    overflow-x: hidden;
+    /* evita rolagem horizontal */
+}
+
+.boxnewPost {
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.newPost {
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.imgfeed {
+    border-radius: 50%;
+}
+
+.newPost textarea {
+    height: 50px;
+    border-radius: 20px;
+    width: 100%;
+    resize: none;
+    outline: none;
+    box-shadow: none;
+    padding: 15px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.newPost textarea:hover {
+    background-color: #dddddd93;
+}
+
+.newPost textarea::placeholder {
+    color: #666666;
+    font-weight: bold;
+}
+
+.boxiconspostfeed {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 43px;
+}
+
+.boxicons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 20px;
+    border-radius: 10px;
+}
+
+.boxicons:hover {
+    background-color: #dddddd93;
+}
+
+.boxicons span {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.filter {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.line {
+    width: 70%;
+    height: 1px;
+    background-color: #666666;
+}
+
+.boxfilter {
+    display: flex;
+    gap: 4px;
+}
+
+.boxfilter p {
+    font-size: 12px;
+}
+
+@media (max-width: 768px) {
+    .feed {
+        width: 100%;
+        background-color: #666666;
+        min-width: 100vw;
+        margin: 0;
+    }
 }

@@ -1,19 +1,26 @@
+.containerall {
+    width: 224px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: fixed;
+}
+
 .sidebarLeft {
-    width: 250px;
     border-radius: 10px;
     border: 1px solid #ddd;
-    background-color: #f2f2f2;
-    height: 300px;
+    background-color: #fff;
+    height: 238px;
 }
 
 .secprofile {
     position: relative;
-    background-image: url('/depositphotos_172385004-stock-photo-programming-code-abstract-technology-background.jpg');
+    background-image: url("/depositphotos_172385004-stock-photo-programming-code-abstract-technology-background.jpg");
     background-position: center;
     background-size: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    height: 70px;
+    height: 65px;
 }
 
 .avatar {
@@ -25,7 +32,185 @@
 }
 
 .descriptions {
-    background-color: red;
     width: 90%;
     margin: 30px auto;
+}
+
+.descriptions h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.descriptions p {
+    font-size: 12px;
+}
+
+.splocation {
+    font-size: 12px;
+    color: #666666;
+}
+
+.boximgfac {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.iconefac {
+    border-radius: 5px;
+}
+
+.spfac {
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+}
+
+
+/*box 2, conexões */
+
+.boxconect2 {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.boxconect2:hover {
+    text-decoration: underline;
+}
+
+.boxtxtconect {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boxtxtconect p {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.boxtxtconect li a {
+    color: #006cbf;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.boxconect2 span {
+    color: #666666;
+    font-size: 12px;
+}
+
+
+/*box 3, premium*/
+
+.box3 {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    height: 75px;
+    padding: 5px 15px;
+}
+
+.box3:hover {
+    text-decoration: underline;
+}
+
+.box3 p {
+    color: #666666;
+    font-size: 12px;
+}
+
+.box3txt li a {
+    text-align: center;
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.box3txt li a:hover {
+    color: #006cbf;
+}
+
+
+/*box4*/
+
+.box4 {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 0 15px;
+}
+
+.linksbox4 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px 0;
+}
+
+.contentbox4 {
+    display: flex;
+    gap: 8px;
+    text-align: center;
+    padding: 4px 0;
+}
+
+.icons {
+    font-size: 15px;
+    line-height: 1;
+}
+
+.contentbox4 a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1;
+}
+
+@media (max-width: 768px) {
+    .containerall {
+        position: inherit;
+        margin-top: -20px;
+        width: 100vw;
+    }
+    .sidebarLeft {
+        border: none;
+        border-radius: 0;
+        height: 250px;
+    }
+    .secprofile {
+        border-radius: 0%;
+        position: inherit;
+    }
+    .avatar {
+        width: 80px;
+        height: 80px;
+        margin-top: 20px;
+        margin-left: 15px;
+        position: inherit;
+    }
+    .descriptions {
+        margin-top: 50px;
+    }
+    .boxconect2 {
+        display: none;
+    }
+    .box3 {
+        display: none;
+    }
+    .box4 {
+        display: none;
+    }
 }

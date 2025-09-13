@@ -2,3 +2,12 @@
     background-color: tomato;
     height: 450px;
 }
+
+
+/*response*/
+
+@media (max-width: 768px) {
+    .sidebarRight {
+        display: none;
+    }
+}
