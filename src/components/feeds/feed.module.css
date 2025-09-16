@@ -7,6 +7,11 @@
     /* ativa rolagem vertical */
     overflow-x: hidden;
     /* evita rolagem horizontal */
+    scroll-behavior: smooth;
+}
+
+.feed::-webkit-scrollbar {
+    display: none;
 }
 
 .boxnewPost {
@@ -81,9 +86,10 @@
 }
 
 .line {
-    width: 70%;
+    width: 67%;
     height: 1px;
     background-color: #666666;
+    margin-right: 5px;
 }
 
 .boxfilter {
@@ -91,15 +97,38 @@
     gap: 4px;
 }
 
+.filtertxticon {
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+}
+
 .boxfilter p {
     font-size: 12px;
+}
+
+.videoContainer {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    height: 0;
+}
+
+.videoContainer iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 @media (max-width: 768px) {
     .feed {
         width: 100%;
-        background-color: #666666;
         min-width: 100vw;
         margin: 0;
+    }
+    .filter {
+        display: none;
     }
 }

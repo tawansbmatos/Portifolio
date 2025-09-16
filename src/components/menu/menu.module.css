@@ -24,7 +24,8 @@
 
 .boxinputHeader {
     margin-left: 5px;
-    padding: 5px 10px;
+    padding: 5px;
+    width: 300px;
     display: flex;
     gap: 5px;
     border: 1px solid #b3b3b3;
@@ -54,8 +55,12 @@
 }
 
 .nav li a:hover {
+    transition: 0.4s;
     color: #000;
-    transition: .4s;
+}
+
+.icons {
+    font-size: 20px;
 }
 
 .boximgheader {
@@ -84,12 +89,16 @@
 @media (max-width: 768px) {
     .header {
         position: fixed;
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
     }
     .boxinputHeader {
         border: none;
         cursor: pointer;
+        width: 30px;
     }
-    .boxinputHeader input {
+    .search {
         display: none;
     }
     .nav li a span {
@@ -101,5 +110,7 @@
     .icondown {
         display: none;
     }
-    .icons {}
+    .icons {
+        font-size: 20px;
+    }
 }

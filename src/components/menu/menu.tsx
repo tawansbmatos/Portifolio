@@ -31,7 +31,7 @@ export default function TopMenu() {
       <nav className={styles.nav}>
         <li>
           <a href="#">
-            <FaHome size={23} 
+            <FaHome 
             className={styles.icons}
             />
             <span>Início</span>
@@ -39,7 +39,7 @@ export default function TopMenu() {
         </li>
         <li>
           <a href="#">
-            <FaUserFriends size={23} 
+            <FaUserFriends 
             className={styles.icons}
             />
             <span>Minha rede</span>
@@ -47,7 +47,7 @@ export default function TopMenu() {
         </li>
         <li>
           <a href="#">
-            <FaBriefcase size={23} 
+            <FaBriefcase 
             className={styles.icons}
             />
            <span>Vagas</span>
@@ -55,7 +55,7 @@ export default function TopMenu() {
         </li>
         <li>
           <a href="#">
-            <FaCommentDots size={23} 
+            <FaCommentDots 
             className={styles.icons}
             />
            <span>Mensagens</span>
@@ -63,7 +63,7 @@ export default function TopMenu() {
         </li>
         <li>
           <a href="#">
-            <FaBell size={23} 
+            <FaBell 
             className={styles.icons}
             />
             <span>Notificações</span>
