@@ -44,19 +44,18 @@ export default function PostCard({
           className={styles.imgPost}
           src={imageUrl}
           alt="Post image"
-          width={500}
-          height={500}
+          width={450}
+          height={400}
         />
       )}
 
       {!imageUrl && video && (
         <div className={styles.videoContainer}>
           <iframe
-            width="496"
-            height="390"
             src={`https://www.youtube.com/embed/${video}?modestbranding=1&rel=0&autoplay=0&fs=1&iv_load_policy=3`}
             title="YouTube video player"
             frameBorder="0"
+            className={styles.videoIframe}
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
           />
@@ -65,3 +64,4 @@ export default function PostCard({
     </div>
   );
 }
+
