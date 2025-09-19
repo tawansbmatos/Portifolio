@@ -1,9 +1,5 @@
 import {
-  FaArchive,
-  FaFileArchive,
   FaImage,
-  FaJournalWhills,
-  FaPager,
   FaYoutube,
 } from "react-icons/fa";
 import styles from "../feeds/feed.module.css";
@@ -11,9 +7,11 @@ import Image from "next/image";
 import { FaArrowDownWideShort, FaSheetPlastic } from "react-icons/fa6";
 import PostCard from "@/components/posts/postCard";
 
+
 export default function Feed() {
   return (
     <main className={styles.feed}>
+      
       <div className={styles.boxnewPost}>
         <div className={styles.newPost}>
           <Image
@@ -65,7 +63,8 @@ export default function Feed() {
             content="Olá! Estou desenvolvendo meu portfólio inspirado no design da rede social LinkedIn. A cada linha de código, sinto que estou evoluindo — e isso tem sido incrível ! ... "
             experience="Front-end | React.JS | Next.Js | React Native"
             date="15 de setembro de 2025"
-            video="hBdMUw2tPrg"
+            imageUrl="/1758284035168.jpeg"
+            color="darkgold"
           />
           <PostCard
             author="Tawan Matos"
@@ -81,7 +80,7 @@ export default function Feed() {
             content="Olá! Estou desenvolvendo meu portfólio..."
             experience="Front-end | React.JS | Next.Js | React Native"
             date="15 de setembro de 2025"
-            video="R8of-SVzxJU"
+            imageUrl="/10841_LI_Balloons_GIF.gif"
           />
           <PostCard
             author="Tawan Matos"
@@ -97,7 +96,7 @@ export default function Feed() {
             content="Olá! Estou desenvolvendo meu portfólio..."
             experience="Front-end | React.JS | Next.Js | React Native"
             date="15 de setembro de 2025"
-            video="j0ZZsSPRmt4"
+            imageUrl="/e6e9cf85928537.5d97b7e67f522.gif"
           />
           <PostCard
             author="Tawan Matos"

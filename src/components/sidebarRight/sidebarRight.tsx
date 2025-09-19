@@ -1,24 +1,93 @@
-import styles from '../sidebarRight/sidebarRight.module.css';
-
+import { FaAndroid } from "react-icons/fa6";
+import styles from "../sidebarRight/sidebarRight.module.css";
+import { FaSadCry } from "react-icons/fa";
 export default function SidebarRight() {
   return (
     <aside className={styles.sidebarRight}>
-      <h3>LinkedIn Notícias</h3>
+      <div className={styles.boxtitles}>
+        <h3>LinkedIn Notícias</h3>
+         <FaAndroid 
+         
+         />
+      </div>
+      <span className={styles.sp}>Assunto em alta</span>
       <ul>
-        <li>Diploma ou habilidades: qual é mais útil?</li>
-        <li>Vagas de estágio e trainee em alta</li>
-        <li>Desenvolvedores para a COP09</li>
-        <li>Mais de 1 bilhão de views no YouTube</li>
+        <li>
+          <a href="#">
+            <span className={styles.sp1}>Os 100 melhores progrmas MBA ...</span>
+            <span className={styles.sp2}>ha 39 min - 2.024 leitores</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span>Os 100 melhores progrmas MBA ...</span>
+            <span>ha 39 min - 2.024 leitores</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span>Os 100 melhores progrmas MBA ...</span>
+            <span>ha 39 min - 2.024 leitores</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span>Os 100 melhores progrmas MBA ...</span>
+            <span>ha 39 min - 2.024 leitores</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span>Os 100 melhores progrmas MBA ...</span>
+            <span>ha 39 min - 2.024 leitores</span>
+          </a>
+        </li>
       </ul>
 
-      <h3>Mais para explorar</h3>
+      <h3>Jogos de hoje</h3>
       <ul>
-        <li>Mini Sudoku</li>
-        <li>Xadrez</li>
-        <li>2048</li>
-        <li>Tango</li>
-        <li>Conexões</li>
+        <li>
+          <a href="#">
+            <FaSadCry />
+
+            <div>
+              <p>Queens</p>
+              <span>Coroar cada região</span>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <FaSadCry />
+
+            <div>
+              <p>Tango</p>
+              <span>Tudo se encaixa</span>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <FaSadCry />
+
+            <div>
+              <p>Zip</p>
+              <span>Complete o caminho</span>
+            </div>
+          </a>
+        </li>
+       <li>
+          <a href="#">
+            <FaSadCry />
+
+            <div>
+              <p>Mini sudoku</p>
+              <span>O jogo clássico, no formato mini</span>
+            </div>
+          </a>
+        </li>
+       
       </ul>
     </aside>
-  )
+  );
 }

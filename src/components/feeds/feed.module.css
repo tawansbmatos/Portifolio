@@ -1,5 +1,5 @@
 .feed {
-    width: 50%;
+    width: 55%;
     height: 100vh;
     margin-left: 23%;
     /* altura máxima visível */
@@ -82,14 +82,14 @@
     margin-top: 10px;
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: px;
 }
 
 .line {
-    width: 67%;
+    width: 66%;
     height: 1px;
-    background-color: #666666;
     margin-right: 5px;
+    background-color: #666666;
 }
 
 .boxfilter {
@@ -104,7 +104,7 @@
 }
 
 .boxfilter p {
-    font-size: 12px;
+    font-size: 11px;
 }
 
 @media (max-width: 768px) {

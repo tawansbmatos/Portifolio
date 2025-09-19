@@ -9,7 +9,6 @@ import {
 } from "react-icons/fa";
 import styles from "../sidebarLeft/sidebarLeft.module.css";
 import Image from "next/image";
-import { Fa42Group } from "react-icons/fa6";
 
 export default function SidebarLeft() {
   return (
@@ -28,7 +27,7 @@ export default function SidebarLeft() {
         <section className={styles.descriptions}>
           <h2>Tawan S. B. Matos</h2>
           <p>Front-End | Full Stack Developer</p>
-          <p>Desenvolvimento web | Next.Js</p>
+          <p>PostgreSQL | Next.Js | React.Js | React Native</p>
           <span className={styles.splocation}>Belém, Pará</span>
           <div className={styles.boximgfac}>
             <Image

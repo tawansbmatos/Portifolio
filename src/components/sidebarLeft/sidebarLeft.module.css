@@ -39,7 +39,6 @@
 .descriptions h2 {
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 5px;
 }
 
 .descriptions p {
@@ -52,7 +51,7 @@
 }
 
 .boximgfac {
-    margin-top: 10px;
+    margin-top: 5px;
     display: flex;
     align-items: center;
     gap: 5px;
