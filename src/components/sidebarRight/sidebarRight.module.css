@@ -1,6 +1,60 @@
 .sidebarRight {
-    background-color: tomato;
-    height: 450px;
+    background-color: #fff;
+    width: 30%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.contentsidebar {
+    padding: 10px 0;
+}
+
+.boxtitles {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    margin-top: 10px;
+}
+
+.boxtitles h3 {
+    color: #222;
+    margin-left: 10px;
+}
+
+.sp {
+    color: #666666;
+    margin-left: 10px;
+}
+
+.listas {
+    margin-top: 15px;
+}
+
+.listas li {
+    list-style: none;
+}
+
+.listas li a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.listas li a:hover {
+    background-color: #ddd;
+    transition: linear .2s;
+}
+
+.sp1 {
+    color: #222;
+}
+
+.sp2 {
+    color: #666666;
+    font-size: .9rem;
+    margin-bottom: 10px;
 }
 
 

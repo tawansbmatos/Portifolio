@@ -63,8 +63,8 @@ export default function Feed() {
             content="Olá! Estou desenvolvendo meu portfólio inspirado no design da rede social LinkedIn. A cada linha de código, sinto que estou evoluindo — e isso tem sido incrível ! ... "
             experience="Front-end | React.JS | Next.Js | React Native"
             date="15 de setembro de 2025"
-            imageUrl="/1758284035168.jpeg"
-            color="darkgold"
+            imageUrl="/post4.jpg"
+            color="gold"
           />
           <PostCard
             author="Tawan Matos"

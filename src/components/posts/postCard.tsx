@@ -26,14 +26,14 @@ export default function PostCard({
   imageUrl,
 }: PostsProps) {
   return (
-    <div className={styles.postcard}>
+    <div className={styles.card}>
       <div className={styles.header}>
         <Image
           className={styles.avatarPost}
           src={avatarUrl}
           alt={`${author} avatar`}
-          width={40}
-          height={40}
+          width={50}
+          height={50}
         />
         <div className={styles.boxnomedata}>
           <div className={styles.autor}>
