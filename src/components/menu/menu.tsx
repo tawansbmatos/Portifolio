@@ -9,6 +9,7 @@ import {
   FaUserFriends,
 } from "react-icons/fa";
 import Image from "next/image";
+import Btntema from "../btntema/btntema";
 
 export default function TopMenu() {
   return (
@@ -16,9 +17,7 @@ export default function TopMenu() {
       <div className={styles.boxNav}>
         <div className={styles.logo}>LinkedDev</div>
         <div className={styles.boxinputHeader}>
-          <FaSearch size={17} color="#404040" 
-          className={styles.icons}
-          />
+          <FaSearch size={17} color="#404040" className={styles.icons} />
 
           <input
             type="text"
@@ -31,41 +30,31 @@ export default function TopMenu() {
       <nav className={styles.nav}>
         <li>
           <a href="#">
-            <FaHome 
-            className={styles.icons}
-            />
+            <FaHome className={styles.icons} />
             <span>Início</span>
           </a>
         </li>
         <li>
           <a href="#">
-            <FaUserFriends 
-            className={styles.icons}
-            />
+            <FaUserFriends className={styles.icons} />
             <span>Minha rede</span>
           </a>
         </li>
         <li>
           <a href="#">
-            <FaBriefcase 
-            className={styles.icons}
-            />
-           <span>Vagas</span>
+            <FaBriefcase className={styles.icons} />
+            <span>Vagas</span>
           </a>
         </li>
         <li>
           <a href="#">
-            <FaCommentDots 
-            className={styles.icons}
-            />
-           <span>Mensagens</span>
+            <FaCommentDots className={styles.icons} />
+            <span>Mensagens</span>
           </a>
         </li>
         <li>
           <a href="#">
-            <FaBell 
-            className={styles.icons}
-            />
+            <FaBell className={styles.icons} />
             <span>Notificações</span>
           </a>
         </li>
@@ -82,6 +71,7 @@ export default function TopMenu() {
             <FaCaretDown className={styles.icondown} color="#666666" />
           </div>
         </div>
+        <Btntema />
       </nav>
     </header>
   );

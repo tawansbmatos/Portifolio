@@ -16,7 +16,7 @@
 
 .boxnewPost {
     width: 100%;
-    background-color: #fff;
+    background-color: var(--boxbranco);
     padding: 10px 20px;
     border: 1px solid #ddd;
     border-radius: 10px;
@@ -43,6 +43,7 @@
     padding: 15px;
     border: 1px solid #ddd;
     cursor: pointer;
+    background-color: var(--boxbranco);
 }
 
 .newPost textarea:hover {
@@ -50,7 +51,7 @@
 }
 
 .newPost textarea::placeholder {
-    color: #666666;
+    color: var(--grey);
     font-weight: bold;
 }
 
@@ -89,7 +90,7 @@
     width: 66%;
     height: 1px;
     margin-right: 5px;
-    background-color: #666666;
+    background-color: var(--grey);
 }
 
 .boxfilter {
@@ -105,6 +106,7 @@
 
 .boxfilter p {
     font-size: 11px;
+    color: var(--txtblack);
 }
 
 @media (max-width: 768px) {

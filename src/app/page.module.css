@@ -1,5 +1,4 @@
 .container {
-    background-color: #f5f3f0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,6 +11,12 @@
     justify-content: space-between;
     gap: 20px;
     margin-top: 80px;
+}
+
+.btnAll {
+    position: absolute;
+    top: 15px;
+    right: 0;
 }
 
 @media (max-width: 768px) {

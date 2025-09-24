@@ -1,5 +1,5 @@
 .sidebarRight {
-    background-color: #fff;
+    background-color: var(--boxbranco);
     width: 30%;
     border: 1px solid #ddd;
     border-radius: 10px;

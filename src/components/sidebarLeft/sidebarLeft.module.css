@@ -9,7 +9,7 @@
 .sidebarLeft {
     border-radius: 10px;
     border: 1px solid #ddd;
-    background-color: #fff;
+    background-color: var(--boxbranco);
     height: 238px;
 }
 
@@ -73,7 +73,7 @@
 .boxconect2 {
     border-radius: 10px;
     border: 1px solid #ddd;
-    background-color: #fff;
+    background-color: var(--boxbranco);
     padding: 10px 15px;
     display: flex;
     flex-direction: column;
@@ -112,7 +112,7 @@
 .box3 {
     border-radius: 10px;
     border: 1px solid #ddd;
-    background-color: #fff;
+    background-color: var(--boxbranco);
     height: 75px;
     padding: 5px 15px;
 }
@@ -147,7 +147,7 @@
 .box4 {
     border-radius: 10px;
     border: 1px solid #ddd;
-    background-color: #fff;
+    background-color: var(--boxbranco);
     padding: 0 15px;
 }
 

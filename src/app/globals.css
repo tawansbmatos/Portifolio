@@ -1,19 +1,56 @@
-:root {
-    --background: #f2f2f2;
+/*
+  ESTILOS GLOBAIS
+  Defina as variáveis para os temas aqui.
+*/
+
+body.light {
+    --background: #f6f5f0;
     --foreground: #171717;
+    --boxbranco: #fff;
+    --grey: #666666;
+    --bgbox: #dddddd8d;
+    background-color: var(--background);
+    color: var(--foreground);
+}
+
+body.dark {
+    --background: #121212;
+    --foreground: #f2f2f2;
+    --boxbranco: #1a1a1a;
+    /* Cor para o tema escuro */
+    --grey: #aaaaaa;
+    /* Cor para o tema escuro */
+    --bgbox: #2d2d2d;
+    /* Cor para o tema escuro */
+    background-color: var(--background);
+    color: var(--foreground);
+}
+
+
+/*
+  VARIÁVEIS GLOBAIS (Não afetam o tema)
+  Use para cores que são sempre as mesmas, independente do tema.
+*/
+
+:root {
+    --txtblack: #222;
+}
+
+
+/*
+  ESTILOS BASE DA PÁGINA
+*/
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    list-style: none;
+    transition: background 0.3s ease, color 0.3s ease;
 }
 
 html,
 body {
     max-width: 100vw;
     overflow-x: hidden;
-}
-
-body {
-    color: var(--foreground);
-    background: var(--background);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    list-style: none;
 }
 
 * {

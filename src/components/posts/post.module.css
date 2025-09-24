@@ -2,7 +2,7 @@
     border: 1px solid #ccc;
     border-radius: 8px;
     margin-bottom: 1rem;
-    background-color: #fff;
+    background-color: var(--boxbranco);
     margin-top: 7px;
     display: flex;
     flex-direction: column;
@@ -43,7 +43,7 @@
 }
 
 .iconsx p:hover {
-    background-color: #ddd;
+    background-color: var(--grey);
     cursor: pointer;
 }
 
@@ -54,7 +54,7 @@
 }
 
 .boxnomedata h3 {
-    color: #333333;
+    color: var(--grey);
     font-size: 16px;
     font-weight: 600;
 }
@@ -65,12 +65,12 @@
 }
 
 .boxnomedata p {
-    color: #333333;
+    color: var(--grey);
     font-size: 12px;
 }
 
 .spxp {
-    color: #9e9e9e;
+    color: var(--grey);
     font-size: 12px;
 }
 
